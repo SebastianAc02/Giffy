@@ -1,0 +1,33 @@
+
+
+
+.Gif{
+
+    border: 1px solid black;
+    
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+  
+}
+
+.Gif img{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+   
+   
+}
+
+.ListGifs{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+   grid-gap: 0 16px;
+   align-items: center;
+  grid-template-rows: masonry;
+ 
+   
+}
+
